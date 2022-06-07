@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.frontend">
+    xmlns:tools="http://schemas.android.com/tools"> <!-- Add this -->
+    <application 
+        tools:replace="android:label"  
+        android:name="your.application.name"
+        android:label="My Application"
+        android:icon="@mipmap/ic_launcher">
+        ...
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>
